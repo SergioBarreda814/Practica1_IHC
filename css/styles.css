@@ -1,0 +1,43 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  #container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  #grid {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 0px;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    background-color:#e6e6e6;
+    position: relative;
+    border: 2px solid #000000 ;
+  }
+  
+  #object {
+    width: 95px;
+    height: 95px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    
+  }
+  #perro {
+    
+    width: 95px;
+    height: 95px;
+    object-fit: cover;
+  }
+  
