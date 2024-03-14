@@ -129,8 +129,17 @@ body {
   }
   
   #btn1 {
-    color: white;
-    font-size: x-large;
-    background-color: #a26f43;
-    text-align: center;
-}
+      text-align: justify; /* Centrar contenido */
+      text-decoration: underline;
+      font-size: x-large;
+      margin-left: 46%;
+      margin-right: 42%;
+      padding: 1%;
+      padding-bottom: 0%;
+      background-color: #dec58b;
+    }
+    
+
+
+    
+

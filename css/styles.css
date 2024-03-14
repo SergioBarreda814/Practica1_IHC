@@ -67,15 +67,32 @@ h1 {
 
 }
 
+/* Estilos generales */
 #grid {
-  margin-top: 10em;
-  margin-left: 40em;
-  margin-right: 10em;
   display: grid;
   align-items: center;
   grid-template-columns: repeat(3, 100px);
   grid-gap: 0px;
 }
+
+/* Estilos para pantallas más grandes */
+@media screen and (min-width: 768px) {
+  #grid {
+    margin-top: 10em;
+    margin-left: 40%;
+    margin-right: 50%;
+  }
+}
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 768px) {
+  #grid {
+    margin-top: 10em;
+    margin-left: 18%;
+    margin-right: 0;
+  }
+}
+
 
 .cell {
   width: 100px;
