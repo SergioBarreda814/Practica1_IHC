@@ -1,0 +1,136 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0%;
+    color: #333;
+  }
+  
+  header {
+    background-color: #BF8049;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    color: #fff;
+    font-size: 32px;
+  }
+  
+  nav {
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block; /* Cambiado a inline-block */
+    margin: 0 1rem; /* Espaciado entre elementos */
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #equipo{
+    text-align: center;
+    color: rgb(76, 49, 2);
+}s
+  main {
+    padding: 1rem;
+  }
+  
+  main section {
+    margin-bottom: 1rem;
+    margin-left: 2%;
+    margin-right: 1%;
+  }
+  
+  main h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  #imgK, #imgV{
+    display: block;
+    margin-bottom: 10px; 
+    max-width: 200px; 
+    height: auto; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  p{
+    font-size: x-large;
+    text-align: left;  
+    margin-left: 1% ;
+}
+  footer {
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  footer p {
+    color: #fff;
+  }
+  
+  /* Media query para hacer responsivo */
+  @media screen and (max-width: 768px) {
+    header {
+      padding: 0.5rem;
+    }
+    
+    nav {
+      padding: 0.5rem;
+    }
+    
+    nav ul li {
+      margin: 0.5rem;
+    }
+    
+    main {
+      padding: 0.5rem;
+    }
+    
+    footer {
+      padding: 0.5rem;
+    }
+  }
+  
+  #integrantes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+    grid-template-rows: repeat(2, auto); /* 2 filas */
+    gap: 20px; /* Espacio entre las cajas */
+    background-color: #a26f43;
+    margin: 0%;
+  }
+  
+  .integrante {
+    text-align: center; /* Centrar contenido */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+    padding-bottom: 0%;
+    background-color: #dec58b;
+  }
+  
+  .integrante img {
+    width: 100%; /* Ajustar imagen al ancho de la caja */
+    max-width: 200px; /* Ancho máximo de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+  }
+  
+  #btn1 {
+    color: white;
+    font-size: x-large;
+    background-color: #a26f43;
+    text-align: center;
+}

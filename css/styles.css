@@ -1,43 +1,104 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+body,
+html {
+  cursor: url(/img/mano.png), auto;
+
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #BF8049;
+
+}
+
+a:hover {
+  cursor: url(/img/Cbate2.png), auto;
+}
+
+
+.Chems {
+  height: auto;
+  /* Se ajustará automáticamente para mantener la relación de aspecto */
+  transition: transform 0.3s ease;
+  /* Agrega una transición suave para la rotación */
+}
+
+.Chems:hover {
+  transform: rotate(360deg);
+  /* La imagen gira 360 grados cuando se pasa el ratón sobre ella */
+}
+
+body {
+  display: contents;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+@keyframes moverTitulo {
+  from {
+    transform: translateX(-200px);
+    /* Posición inicial */
   }
-  
-  #container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+
+  to {
+    transform: translateX(200px);
+    /* Posición final (ajusta según sea necesario) */
   }
-  
-  #grid {
-    display: grid;
-    grid-template-columns: repeat(3, 100px);
-    grid-gap: 0px;
-  }
-  
-  .cell {
-    width: 100px;
-    height: 100px;
-    background-color:#e6e6e6;
-    position: relative;
-    border: 2px solid #000000 ;
-  }
-  
-  #object {
-    width: 95px;
-    height: 95px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    z-index: 2;
-    
-  }
-  #perro {
-    
-    width: 95px;
-    height: 95px;
-    object-fit: cover;
-  }
-  
+}
+
+h1 {
+  text-align: center;
+  color: #BF8049;
+  font-size: 2.5em;
+  margin: 20px 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  animation: moverTitulo 6s infinite alternate;
+}
+
+
+
+#container {
+  align-items: center;
+  margin: -20px;
+  background-color: #BF8049;
+  height: 100%;
+
+}
+
+#grid {
+  margin-top: 10em;
+  margin-left: 40em;
+  margin-right: 10em;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 0px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: #d8ab8a;
+  position: relative;
+  border: 2px solid floralwhite;
+}
+
+#object {
+  width: 95px;
+  height: 95px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+
+}
+
+#perro {
+
+  width: 95px;
+  height: 95px;
+  object-fit: cover;
+}
+

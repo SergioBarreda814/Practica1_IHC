@@ -4,7 +4,7 @@ let objectPosition = { x: 0, y: 0 }; // Posición inicial del objeto en la cuadr
 
 document.addEventListener('keydown', function(event) {
   const key = event.key;
-
+  
   switch(key) {
     case 'ArrowUp':
       moveObject('arriba');

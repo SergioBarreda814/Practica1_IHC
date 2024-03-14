@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Practica 1</title>
+<link rel="stylesheet" href="../css/principal.css">
+</head>
+<body>
+<header>
+<h1>Practica 1. Paradigmas de interacción</h1>
+</header>
+<main>
+    <div>
+        <h2 id="equipo">INTEGRANTES DEL EQUIPO</h2>
+    <section id="integrantes">
+       
+        <div class="integrante">
+          <img src="../img/ambar.jpg" alt="Integrante 1">
+          <h4>Aguilar Aguirre Ambar Fernanda</h4>
+        </div>
+        <div class="integrante">
+          <img src="../img/sergio.png" alt="Integrante 2">
+          <h4>Barreda Martinez Sergio Emmanuel</h4>
+        </div>
+        <div class="integrante">
+          <img src="../img/dani.jpg" alt="Integrante 3">
+          <h4>Daniela Castell Yarazeth Larios</h4>
+        </div>
+        <div class="integrante">
+          <img src="../img/alan.jpg" alt="Integrante 4">
+          <h4>Alan Ismael Cruz Villegas</h4>
+        </div>
+      </section> 
+    </div>     
+
+<section id="objective">
+<h2>Objetivo</h2>
+<p>Desarrollar dos pruebas de concepto de interfaces interactivas para la Práctica N°1 de Interacción Humano-Computadora, con el fin de explorar y comparar diferentes modalidades de interacción con computadoras, aplicando los conocimientos de paradigmas de interacción. Promoviendo el trabajo en equipo, se busca adquirir competencias en modelos de interacción derivados de estilos de interacción.</p>
+</section>
+<section id="voice">
+<h2>Paradigma de Interacción 1: Interfaz de Voz</h2>
+<p>Este paradigma utiliza la API de reconocimiento de voz para permitir al usuario controlar el objeto mediante comandos de voz. Cuando se detecta voz, se transcribe el texto reconocido y se compara con palabras clave como "arriba", "abajo", "izquierda" y "derecha". Si se reconoce alguna de estas palabras, se llama a la función moveObject(direction) con la dirección correspondiente como argumento, de manera similar a la interacción mediante teclado. Si la palabra no coincide con ninguna de las palabras clave esperadas, se muestra un mensaje en la consola indicando que la palabra no fue reconocida.</p>
+<img id="imgV" src="../img/voice.png" alt="imagen alusiva a la interfaz de Voz">
+
+</section>
+
+<section id="keypad">
+<h2>Paradigma de Interaccion 2: Modulo Keypad</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, arcu nec vulputate varius, augue libero consectetur velit, vel interdum libero sapien vel felis. Integer convallis lorem sit amet enim posuere dignissim. Vestibulum euismod luctus odio, vel lobortis velit consequat eget. Nullam aliquet, justo sit amet commodo pellentesque, dui nunc consequat ipsum, id placerat nisi libero nec nulla. Ut non lectus eget nisl convallis dictum. Sed efficitur, arcu at dapibus varius, lectus felis posuere ligula, non mattis libero est a lorem. Nullam laoreet eleifend ex, vitae ultrices magna accumsan nec. Vivamus blandit justo id dolor venenatis, ac efficitur felis congue. Nulla facilisi. Integer et sollicitudin nulla. Sed rhoncus, velit a fringilla laoreet, quam quam maximus metus, nec malesuada velit nisi eu est. Sed sed lectus mi. Sed at sapien vel odio vestibulum malesuada.</p>
+<img id="imgK" src="../img/key.png" alt="imagen alusiva al uso de la keypad de arduino">
+</section>
+
+<div class="boton">
+  <button id="btn1" onclick="window.location.href = './method.html';">Ir a Otra Página</button>
+
+</div>
+
+
+</main>
+<footer>
+<p>© 2024 - Interaccion Humano-Computadora</p>
+</footer>
+</body>
+</html>
